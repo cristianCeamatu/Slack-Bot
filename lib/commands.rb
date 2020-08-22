@@ -15,7 +15,7 @@ module DriftingRuby
       end
 
       command 'say_hello' do |client, data, _match|
-        client.say(chanlel: data.channel, text: HelloText.say_hello)
+        client.say(channel: data.channel, text: HelloText.say_hello)
       end
     end
   end
